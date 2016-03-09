@@ -6,7 +6,7 @@ var social = ["AddMeFast","Facebook","Instagram","Twitter","VK","Pinterest","Stu
 var socialBool = [];
 
 for(var i=0;i<social.length;i++){
-	var r = confirm("Have you a "+social[i]+ " account?");
+	var r = confirm("Do you have a "+social[i]+ " account?");
 	if (r) socialBool[i] = true;
 	else socialBool[i] = false;
 };
